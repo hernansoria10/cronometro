@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #73afd1;
+}
+
+.container{
+    width: 80vw;
+    max-width: 600px;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.contenedorBotones{
+    padding: 20px;
+}
+
+#cronometro{
+    width: 100%;
+    font-size: 200%;
+    font-weight: bold;
+    user-select: none;
+    font-family: "Squada One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#boton-inicio-pausa.iniciar,
+#boton-inicio-pausa.iniciar i{
+    background-color: #13fb13 ;
+}
+#boton-inicio-pausa.pausar,
+#boton-inicio-pausa.pausar i{
+   background-color: #fe5a5a;
+}
+
+#boton-reiniciar{
+    background-color: #7caefe;
+}
+
+.boton{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+}
