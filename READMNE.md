@@ -1,5 +1,5 @@
 <div>
-<a href='https://nexus-89i.netlify.app'>
+<a href='https://cronometroide.netlify.app/'>
     <img src='img/icono cronometro.png' alt='Nexus' width='150'>
 </a>
  <h1>Cronometroide</h1>
